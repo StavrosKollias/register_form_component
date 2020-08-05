@@ -47,6 +47,7 @@ body {
   padding: var(--registerComponentTitle_padding);
   color: var(--blueMat);
 }
+
 .register-button-container,
 .register-input-container {
   display: flex;
