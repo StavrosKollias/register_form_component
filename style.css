@@ -53,7 +53,8 @@ body {
   display: flex;
   flex-direction: column;
   width: calc(
-    var(--registerInputContainer_width) - var(--registerInputContainer_padding)
+    var(--registerInputContainer_width) - 2 *
+      var(--registerInputContainer_padding)
   );
   height: auto;
   padding: var(--registerInputContainer_padding);
