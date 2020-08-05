@@ -68,6 +68,11 @@ body {
   padding: var(--registerInput_padding);
 }
 
+.error-input {
+  box-shadow: 0 0 0.6em var(--redMat);
+  border: 2px solid var(--white);
+}
+
 .register-submit-btn {
   padding: 0.3rem;
   width: 5rem;
