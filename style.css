@@ -10,6 +10,7 @@
   --marginNone: 0;
 
   --form_width: 90%;
+  --form_padding: 1em;
   --form_max-width: 50em;
   --form_border-top: 0.25em;
   --form_min-height: 50em;
@@ -33,10 +34,10 @@ body {
 }
 
 .register-form-component {
-  width: var(--form_width);
+  width: calc(var(--form_width) - 2 * var(--form_padding));
   min-height: var(--form_min-height);
-  padding: 1em;
-  max-width: var(--form_max-width);
+  padding: var(--form_padding);
+  max-width: calc(var(--form_max-width) - 2 * var(--form_padding));
   border-top: var(--form_border-top) solid var(--purpleMat);
   margin: auto;
   box-shadow: 0px 0 0.7em var(--black);
@@ -75,9 +76,9 @@ body {
 }
 
 .register-submit-btn {
-  padding: 0.3rem;
-  width: 5rem;
-  height: 3rem;
+  padding: 0.3em;
+  width: 5em;
+  height: 3em;
   background-color: var(--blueMat);
   color: var(--white);
   border: none;
